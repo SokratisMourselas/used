@@ -4,6 +4,7 @@ import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavigationMenu from './Components/NavigationMenu/NavigationMenu';
 import HomePage from './Components/HomePage/HomePage';
+import Card from './Components/Card/Card';
 
 class Game extends React.Component {
 
@@ -12,7 +13,10 @@ class Game extends React.Component {
       <div>
         <NavigationMenu/>
         <HomePage/>
+        <div style = {{marginLeft: "2em"}}>
+          <Card/>
         </div>
+      </div>
     );
   }
 }
