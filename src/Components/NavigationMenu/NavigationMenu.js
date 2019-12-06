@@ -6,7 +6,7 @@ const navigationMenu = () => {
     return (
       <div>
         <Navbar bg="light" expand="lg">
-          <Navbar.Brand href="#home">Us->ed</Navbar.Brand>
+          <Navbar.Brand href="#home"><b>BarGain</b></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
@@ -26,7 +26,6 @@ const navigationMenu = () => {
             </Form>
           </Navbar.Collapse>
         </Navbar>
-        <div>Hello World</div>
         </div>
     );
   }
